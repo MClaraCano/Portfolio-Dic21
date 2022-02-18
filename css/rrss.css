@@ -1,0 +1,48 @@
+.social{
+    /* para que no se mueva del lugar de la pantalla */
+position: fixed;
+/* para que se vaya a la izquierda */
+left: -40px;
+/* para que quede más abajo */
+top: 300px;
+}
+
+.social ul{
+    /* quitar los puntos */
+    list-style: none;
+}
+
+.social a{
+    /* para que quede en bloque, línea */
+    display: inline-block;
+    /* paar que no tenga subrayado */
+    text-decoration: none;
+    color: white;
+    padding:15px 30px;
+    z-index: 0;
+    /* transición; segundos */
+    transition: 0.1s ease;
+    
+}
+
+.fa-facebook{
+    background: #3b5998;
+}
+
+.fa-linkedin{
+    background: #0e76a8;
+}
+
+.fa-whatsapp{
+    background: #25d366;
+}
+
+.fa-instagram{
+    background: #f09433;
+}
+
+
+/* para ensanchar los iconos cuando pasa el mousse */
+.social a:hover{
+padding: 15px 35px;
+}
